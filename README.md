@@ -1,4 +1,4 @@
-# Windows权限维持后门、持续反弹shell，60s/1次
+# Windows权限维持后门、持续反弹shell，60s/1次、目前已实现最新版360、火绒免杀
 Black v1.1
 Usage: black.exe r_ip r_port
 author: NOVASEC_黑仔
