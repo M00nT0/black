@@ -1,4 +1,4 @@
-## Windows权限维持工具
+## Windows权限维持工具<1.4>
 
 ### version 1.0
 
@@ -110,6 +110,23 @@
 
 ![image-20210610181110442](https://user-images.githubusercontent.com/33219753/121508017-c00bf600-ca17-11eb-9061-7c550e2f368f.png)
 
+### version 1.4
+
+- 新增Server端，取代NC，一对一控制（待优化）
+- 增加Logo输出
+- 简单的传输加密（待优化）
+- 缺陷：线程回收问题
+
+S启动：
+![image-20210620145256132](https://user-images.githubusercontent.com/33219753/122665255-c436d100-d1d8-11eb-9640-728cd47c740c.png)
+S命令执行
+![image-20210620145714398](https://user-images.githubusercontent.com/33219753/122665264-cd27a280-d1d8-11eb-9c9a-14842dfcf752.png)
+C端：
+![image-20210620145923994](https://user-images.githubusercontent.com/33219753/122665268-d31d8380-d1d8-11eb-9695-6c4c7eaab1ba.png)
+测试服务中断：
+![image-20210620150124277](https://user-images.githubusercontent.com/33219753/122665274-dca6eb80-d1d8-11eb-8403-425d8b490b09.png)
+等待60s，又回来了
+![image-20210620150152616](https://user-images.githubusercontent.com/33219753/122665279-e6c8ea00-d1d8-11eb-8d82-ab16e128f6d0.png)
 
 
 
